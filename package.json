@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "analytics-dashboard",
   "private": true,
   "scripts": {
     "build": "turbo run build",
