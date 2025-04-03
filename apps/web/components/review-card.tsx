@@ -12,11 +12,6 @@ interface ReviewCardProps {
 }
 
 export function ReviewCard({ product, review, rating, division, market, date, sentiment }: ReviewCardProps) {
-  const sentimentColor = {
-    positive: "text-green-500",
-    negative: "text-orange-500",
-    neutral: "text-gray-500",
-  }
 
   return (
     <Card className="overflow-hidden">
