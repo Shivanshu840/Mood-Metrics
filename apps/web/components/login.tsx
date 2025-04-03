@@ -10,7 +10,7 @@ export default function LoginPage() {
   const router = useRouter()
 
   const handleSubmit = (e: FormEvent) => {
-    e.preventDefault() // Prevent form submission
+    e.preventDefault() 
     router.push("/home")
   }
 
